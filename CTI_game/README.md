@@ -1,96 +1,95 @@
 
-# **Guess the Hacker** 🎮
+# **CTI Quiz** 🎮
 
-**Guess the Hacker** is an interactive terminal game where players take on the role of cybersecurity analysts. Your mission is to identify hacker groups and software based on their descriptions. Do you have what it takes to outsmart cybercriminals and protect the digital world?
+**CTI Quiz** is an interactive terminal game where you, as a cybersecurity analyst, face the challenge of identifying hacker groups or software based on descriptions. You need to be quick and precise in your choices to uncover cyber threats and avoid getting caught by attacks.
 
 ---
 
 ## 📖 **How to Play**
 
 1. **Start the Game**:
-   - Upon starting the game, an ASCII banner will display the title "GUESS THE HACKER".
-   - The game will present a description of a hacker group or software.
+   - The game will present an ASCII banner with the title "CHECK THE INTEL * STOP THE ATTACK!".
+   - You'll choose between two game modes: identifying **Software** or **Threat Groups**.
 
 2. **Objective**:
-   - Identify the correct hacker group or software from 4 options.
-   - Correct answers earn points, while incorrect answers cost you a life.
+   - For each round, you will be given a description and four options: one correct answer and three incorrect options.
+   - Your goal is to select the correct option, which could either be a hacker group or software.
 
 3. **Lives and End of the Game**:
    - You start with 3 lives.
-   - Losing all lives ends the game, and you will be shown a "YOU'VE BEEN PWND" message.
+   - If you select the wrong answer, you lose a life. If you lose all your lives, the game ends with an ASCII "YOU'VE BEEN PWND" message.
 
 4. **Post-Game Options**:
-   - After losing all lives, you can choose to restart the game or quit.
+   - After losing all your lives, you can choose to restart the game or exit.
 
 ---
 
-## 🛠️ **Installation and Local Execution**
+## 🛠️ **Installation and Running Locally**
 
 Follow these steps to download and run the game on your machine:
 
 ### 1. Clone the Repository
 Open your terminal and clone the GitHub repository:
 ```bash
-git clone https://github.com/your-username/guess-the-hacker.git
+git clone https://github.com/your-username/cyber-intel.git
 ```
 Navigate to the project directory:
 ```bash
-cd guess-the-hacker
+cd cyber-intel
 ```
 
 ### 2. Install Dependencies
-Ensure you have **Python 3.7+** installed on your system.
+Ensure that you have **Python 3.7+** installed on your system.
 
-There are no external dependencies required for this game as it only uses Python's built-in modules.
+No external dependencies are required for this game, as it only uses Python's built-in modules.
 
 ### 3. Run the Game
-Execute the `guess_the_hacker.py` file from the terminal:
+Execute the `cyber_intel.py` file from the terminal:
 ```bash
-python guess_the_hacker.py
+python cyber_intel.py
 ```
 
 ---
 
-## 🧑‍💻 **How It Works**
+## 🧑‍💻 **How the Game Works**
 
-The game uses a dataset of hacker groups and software to generate random questions. Here's the main flow:
-
-1. A hacker group or software is randomly chosen as the correct answer.
-2. The player is presented with four options (one correct and three incorrect).
-3. The player selects an option by typing a number between 1 and 4.
-4. If the selection is incorrect, the player loses a life. If correct, they gain a point.
+1. You will be prompted to choose between **Software** or **Threat Groups**.
+2. The game will randomly select a description from a dataset (either software or hacker group).
+3. You will receive four options: one correct answer and three incorrect ones.
+4. If you select the correct answer, you earn points. If not, you lose a life.
+5. The game ends once you run out of lives, and you'll be shown your score.
 
 ---
 
 ## 📂 **Project Structure**
 
 ```
-guess-the-hacker/
+cyber-intel/
 │
-├── guess_the_hacker.py     # Main game code
-├── hacker_groups_cleaned.csv  # Dataset with hacker group information (optional)
-├── software_cleaned.csv      # Dataset with software descriptions (optional)
-└── README.md               # This file
+├── cyber_intel.py           # Main game logic
+├── hacker_groups.csv        # Dataset containing hacker group information
+├── software.csv             # Dataset containing software descriptions
+└── README.md                # This file
 ```
 
 ---
 
 ## 🚀 **Game Features**
 
-- **Narrative Descriptions**: Based on real cybersecurity data.
+- **Real Data Descriptions**: Based on real cybersecurity data.
 - **Lives System**: Lose lives for incorrect answers.
-- **ASCII Art**: Adds a retro touch to the game.
-- **Random Questions**: Dynamic questions from both hacker groups and software for replayability.
-- **Restart Option**: Start a new game after "Game Over".
+- **ASCII Art**: Adds a retro touch with unique visuals.
+- **Random Questions**: Both software and hacker group questions for varied gameplay.
+- **Restart Option**: Start fresh after a "Game Over".
 
 ---
 
 ## 🏆 **Can You Win?**
-See how many hacker groups or software you can identify before losing all your lives! Share your score and challenge your friends.
+How many hacker groups or software can you identify before losing all your lives? Share your score and challenge your friends!
 
 ---
 
-Do you have suggestions or improvements? Feel free to contribute! 🎉
+Got suggestions or improvements? Feel free to contribute! 🎉
 
 ---
 
