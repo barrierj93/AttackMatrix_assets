@@ -5,7 +5,7 @@
 
 ---
 
-## 📖 **How to Play**
+## **How to Play**
 
 1. **Start the Game**:
    - The game will present an ASCII banner with the title "CHECK THE INTEL * STOP THE ATTACK!".
@@ -24,7 +24,7 @@
 
 ---
 
-## 🛠️ **Installation and Running Locally**
+## **Installation and Running Locally**
 
 Follow these steps to download and run the game on your machine:
 
@@ -51,7 +51,7 @@ python cyber_intel.py
 
 ---
 
-## 🧑‍💻 **How the Game Works**
+## **How the Game Works**
 
 1. You will be prompted to choose between **Software** or **Threat Groups**.
 2. The game will randomly select a description from a dataset (either software or hacker group).
@@ -74,7 +74,7 @@ cyber-intel/
 
 ---
 
-## 🚀 **Game Features**
+## **Game Features**
 
 - **Real Data Descriptions**: Based on real cybersecurity data.
 - **Lives System**: Lose lives for incorrect answers.
@@ -82,17 +82,9 @@ cyber-intel/
 - **Random Questions**: Both software and hacker group questions for varied gameplay.
 - **Restart Option**: Start fresh after a "Game Over".
 
----
-
-## 🏆 **Can You Win?**
-How many hacker groups or software can you identify before losing all your lives? Share your score and challenge your friends!
-
----
-
-Got suggestions or improvements? Feel free to contribute! 🎉
 
 ---
 
 ## 📜 **License**
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and share it.
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and share it. Feel free to contribute!
